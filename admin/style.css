@@ -1,0 +1,63 @@
+body {
+  background: #fff;
+}
+.main {
+  background-color: #ddd;
+  min-height: 500px;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+  color: yellow !important;
+}
+
+/* Login Page */
+.form-group {
+  display: inline-block;
+}
+.form-group .icon {
+  padding: 10px;
+  background-color: #ddd;
+  margin-right: 2px;
+  border-radius: 0.25rem;
+}
+
+.login-page {
+  background-color: #2d4059;
+}
+.login-page form {
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ea5455;
+  padding: 30px;
+  border-radius: 5px;
+}
+.login-page form h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  margin-top: -15px;
+  color: #fff;
+}
+.login-page form .btn {
+  background-color: #2d4059;
+  color: #fff;
+}
+
+/* User Page */
+.user-page .form-group,
+.question-page .form-group {
+  display: block;
+  margin: 15px auto;
+}
+.user-page .modal-header,
+.question-page .modal-header {
+  background-color: #ddd;
+}
+

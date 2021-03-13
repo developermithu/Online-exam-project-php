@@ -1,0 +1,42 @@
+/* .active{
+	background: rgba(0, 0, 0, .2);
+} */
+.active a {
+  color: #ffda1de6 !important;
+}
+
+.register-form {
+  margin-top: 30px !important;
+}
+
+/* ====== Exam Page ====== */
+#exam-page .col-md-6:nth-child(2) {
+  font-size: 22px !important;
+  border: 1px solid#bbb;
+}
+#start-test-page .col-md-6 {
+  box-shadow: 0 1px 5px 2px rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+#start-test-page .title {
+  background-color: rgb(255, 255, 255, 0.6);
+}
+#start-test-page .col-md-6 ul li {
+  list-style: none;
+}
+#start-test-page .col-md-6 a {
+  text-decoration: none;
+  margin-top: 30px;
+}
+#start-test-page p {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  font-size: 18px;
+  color: #555;
+}
+
+#answer-page .answer-list {
+  width: 50%;
+  margin: auto;
+}

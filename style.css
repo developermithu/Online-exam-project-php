@@ -1,0 +1,78 @@
+/*========= Global Css ======== */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1024px !important;
+}
+
+/*========= Navbar ========*/
+.navbar-brand {
+  color: #ffda1de6 !important;
+  text-transform: uppercase !important;
+  font-weight: bold;
+}
+.navbar-brand span {
+  color: #ddd;
+}
+.nav-link {
+  color: #fff !important;
+  padding-right: 1.5rem !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffda1de6 !important;
+}
+
+/*========= Main Css ========*/
+main {
+  background: #ddd;
+}
+main .title {
+  font-weight: 600;
+  font-size: 26px;
+}
+main .user-login {
+  background: #eee;
+  margin-top: 40px;
+}
+main .user-login form {
+  background: #ddd;
+  border: 2px solid #eee;
+  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+main .user-login form .login-btn,
+main .user-login form .new-user {
+  margin-left: 92px;
+}
+main .form {
+  background: #eee;
+  width: 639px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+main .form form .register-img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: -138px;
+  margin-bottom: 30px;
+}
+main .form form .register-img img {
+  border-radius: 50%;
+}
+main .form form .register-btn {
+  margin-left: 85px;
+}
+main .form form .register-btn .btn {
+  padding: 6px 38px;
+}
